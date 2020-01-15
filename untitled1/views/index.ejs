@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Github search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="javascripts/ex3.js"></script>
+  <style>
+    p {
+      width: 19%;
+      background-color:darksalmon;
+    }
+  </style>
+</head>
+<body>
+
+<H1>Github search</H1>
+<h4>user name</h4>
+<input  type="text" id="insert"><br>
+<button id="search" type="button" class="btn btn-primary">Search</button>
+<button id= "save" type="button" class="btn btn-success">Save</button>
+<button id ="delete" type="button" class="btn btn-danger">Delete</button>
+<p id="warning" style="display: none"> </p>
+</div>
+
+<p class="row-md-8" id="nameuser" style="background: darkcyan"></p>
+
+<div class="repos" id = "repos" style="display: none">
+  <H1>Reposetories</H1>
+  <ol id = "listrepos" style="display: none">
+    <li></li>
+  </ol>
+</div>
+<p id="no_repos" style="display: none"> </p>
+<div class="followers" id = "followers" style="display: none">
+  <div class="followers_list" ><H1>Followers</H1></div>
+  <ol id = "listfllowers" style="display: none">
+    <li></li>
+  </ol>
+</div>
+<p id="no_follow" style="display: none"> </p>
+
+
+<H1 id = save_title>Saved</H1>
+<div class="col-md-4" id = "saved" style="display: block">
+
+</div>
+<ol id = "listsave" style="display: none">
+  <li></li>
+</ol>
+</body>
+</html>
